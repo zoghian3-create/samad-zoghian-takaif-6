@@ -1,0 +1,31 @@
+from datetime import datetime
+
+def calculate_age1(birth_year)
+          """محاسبه سن بر اساس سال تولد میلادی"""
+  current_year = datetime.now().year
+  return current_year - birth_year
+
+#.....................................................
+def calculate_age2_by_type(birth_year,date,calendar_type):
+   """محاسبه سن بر اساس تاریخ شمسی یا میلادی"""
+    if calendar_type == "میلادی":
+      return 2026-year
+      
+        calendar_year = datetime.now().year
+elif calendar_type == "شمسی":
+     return 1405-year
+
+#...............................................................
+def calendar_age3_by_type(birth_year, calendar_type="میلادی"
+            """محسابه سن پیش فرض میلادی"""
+        if calendar_type== "شمسی"
+            return 1405-year              
+           current_year == "میلادی"
+       elif calendar_type=="میلادی"     
+            return 2026-year 
+            
+            def calculate_age4_by_type(year):
+    if year<=1405:
+        return1405-age
+    else:
+    return current_year - birth_year
